@@ -8,7 +8,7 @@ on:
 jobs:
   once:
     name: Creating digests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Digest
         uses: MCJack123/ghaction-generate-release-hashes@v1

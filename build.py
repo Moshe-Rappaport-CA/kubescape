@@ -17,7 +17,7 @@ def get_build_dir():
     build_dir = ""
 
     if current_platform == "Windows": build_dir = "windows-latest"
-    elif current_platform == "Linux": build_dir = "ubuntu-latest"
+    elif current_platform == "Linux": build_dir = "ubuntu-20.04"
     elif current_platform == "Darwin": build_dir = "macos-latest"
     else: raise OSError("Platform %s is not supported!" % (current_platform))
 
